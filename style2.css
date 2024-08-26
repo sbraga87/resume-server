@@ -1,0 +1,105 @@
+html {
+	background-color: black;
+	background-image: url("normal-background.jpg");
+	color: white;
+	background-color: black;
+	font-family: sans-serif;
+	font-size: 1em;
+}
+
+html,
+body {
+	margin: 1% 0 0 0;
+	padding: 0;
+}
+
+main {
+	margin: 1em 3em;
+}
+
+h1 {
+	background-image: url("logo.png");
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-size: 2em;
+	text-transform: uppercase;
+	min-height: 1.6em;
+	padding: 0.4em 0.5em 0 1.2em;
+	margin: 1em 0 0 2em;
+	font-size: 1.5em;
+}
+
+header {
+	text-align: center;
+}
+
+h2 {
+	font-size: smaller;
+	font-style: small-caps;
+	margin: 2em 0 0.5em 0;
+}
+
+#vr-headset,
+#model,
+#camera {
+	background: #7afc78;
+	color: #006629;
+	border-radius: 5px;
+	padding: 5px;
+	font-weight: bold;
+	margin-bottom: 5%;
+}
+
+#model {
+	background: #fcaf78;
+	color: #663300;
+}
+
+#camera {
+	background: #000;
+}
+
+nav {
+	bottom: 0%;
+	position: fixed;
+	width: 100%;
+}
+
+nav a {
+	display: block;
+	background: #dbdbdb;
+	color: black;
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	padding: 1em 0;
+	font-weight: bold;
+}
+
+nav a#active {
+	background: #4a4a4a;
+	color: white;
+}
+
+.upcoming {
+	color: red;
+	text-transform: uppercase;
+	padding-left: 5%;
+}
+
+input,
+select,
+button {
+	opacity: 0.5;
+	padding: 0.5em;
+	margin: 0 0 0.5em 0;
+	font-size: 1em;
+	border-radius: 0.5em;
+	font-weight: bold;
+}
+
+video {
+	width: 100%;
+	height: 100%;
+}
